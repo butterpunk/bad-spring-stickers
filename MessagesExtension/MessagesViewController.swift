@@ -10,10 +10,21 @@ import UIKit
 import Messages
 
 class MessagesViewController: MSMessagesAppViewController {
+
+    var browserViewController:badSpringBrowserViewController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        browserViewController = badSpringBrowserViewController(stickerSize: .regular)
+        browserViewController.view.frame = self.view.frame
+        
+        self.addChildViewController(browserViewController)
+        browserViewController.didMove(toParentViewController: self)
+        self.view.addSubview(browserViewController.view)
+        
+        browserViewController.loadStickers()
+        browserViewController.stickerBrowserView.reloadData()
+        /*  browserViewController.changeBrowserViewBackgroundColor(color: UIColor.init(red: 1.0, green: 0.58, blue: 0.68, alpha: 1)) */
     }
     
     override func didReceiveMemoryWarning() {

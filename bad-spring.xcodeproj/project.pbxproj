@@ -13,6 +13,11 @@
 		5817503A1D8F74DF00AA1FDE /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581750391D8F74DF00AA1FDE /* MessagesViewController.swift */; };
 		5817503D1D8F74DF00AA1FDE /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5817503B1D8F74DF00AA1FDE /* MainInterface.storyboard */; };
 		5817503F1D8F74DF00AA1FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5817503E1D8F74DF00AA1FDE /* Assets.xcassets */; };
+		5817504B1D8F75F700AA1FDE /* badSpringBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5817504A1D8F75F700AA1FDE /* badSpringBrowserViewController.swift */; };
+		5817504F1D8F774900AA1FDE /* beer_can.png in Resources */ = {isa = PBXBuildFile; fileRef = 5817504C1D8F774900AA1FDE /* beer_can.png */; };
+		581750501D8F774900AA1FDE /* censor bar_fuckboi.png in Resources */ = {isa = PBXBuildFile; fileRef = 5817504D1D8F774900AA1FDE /* censor bar_fuckboi.png */; };
+		581750511D8F774900AA1FDE /* cut out cig butt.png in Resources */ = {isa = PBXBuildFile; fileRef = 5817504E1D8F774900AA1FDE /* cut out cig butt.png */; };
+		581750531D8F775C00AA1FDE /* trump face sticker_censor bar only.png in Resources */ = {isa = PBXBuildFile; fileRef = 581750521D8F775C00AA1FDE /* trump face sticker_censor bar only.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		5817503C1D8F74DF00AA1FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		5817503E1D8F74DF00AA1FDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		581750401D8F74DF00AA1FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5817504A1D8F75F700AA1FDE /* badSpringBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = badSpringBrowserViewController.swift; sourceTree = "<group>"; };
+		5817504C1D8F774900AA1FDE /* beer_can.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beer_can.png; sourceTree = SOURCE_ROOT; };
+		5817504D1D8F774900AA1FDE /* censor bar_fuckboi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "censor bar_fuckboi.png"; sourceTree = SOURCE_ROOT; };
+		5817504E1D8F774900AA1FDE /* cut out cig butt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cut out cig butt.png"; sourceTree = SOURCE_ROOT; };
+		581750521D8F775C00AA1FDE /* trump face sticker_censor bar only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trump face sticker_censor bar only.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 			isa = PBXGroup;
 			children = (
 				581750391D8F74DF00AA1FDE /* MessagesViewController.swift */,
+				5817504A1D8F75F700AA1FDE /* badSpringBrowserViewController.swift */,
+				5817504C1D8F774900AA1FDE /* beer_can.png */,
+				581750521D8F775C00AA1FDE /* trump face sticker_censor bar only.png */,
+				5817504D1D8F774900AA1FDE /* censor bar_fuckboi.png */,
+				5817504E1D8F774900AA1FDE /* cut out cig butt.png */,
 				5817503B1D8F74DF00AA1FDE /* MainInterface.storyboard */,
 				5817503E1D8F74DF00AA1FDE /* Assets.xcassets */,
 				581750401D8F74DF00AA1FDE /* Info.plist */,
@@ -203,6 +218,10 @@
 			files = (
 				5817503F1D8F74DF00AA1FDE /* Assets.xcassets in Resources */,
 				5817503D1D8F74DF00AA1FDE /* MainInterface.storyboard in Resources */,
+				581750501D8F774900AA1FDE /* censor bar_fuckboi.png in Resources */,
+				5817504F1D8F774900AA1FDE /* beer_can.png in Resources */,
+				581750511D8F774900AA1FDE /* cut out cig butt.png in Resources */,
+				581750531D8F775C00AA1FDE /* trump face sticker_censor bar only.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5817504B1D8F75F700AA1FDE /* badSpringBrowserViewController.swift in Sources */,
 				5817503A1D8F74DF00AA1FDE /* MessagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
